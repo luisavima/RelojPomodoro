@@ -1,0 +1,92 @@
+body {
+  background-color: #151e29;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 50px;
+  color: #099d8d;
+}
+
+/* Botones controladores */
+
+.controller button {
+  font-size: 1.1rem;
+  font-weight: 700;
+  background-color: #099d8d;
+  margin-top: 30px;
+  border-radius: 6px;
+  outline: none;
+  width: 85px;
+  height: 35px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  margin: 15px;
+}
+
+.settings {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-around;
+  text-align: center;
+  color: teal;
+  font-size: 25px;
+}
+
+.settings-section button {
+  font-size: 1.1rem;
+  outline: none;
+  width: 35px;
+  height: 35px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #099d8d;
+}
+
+.settings-section span {
+  width: 45px;
+  height: 45px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1.1rem;
+  margin-top: 30px;
+}
+
+.times {
+  width: 50%;
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: inline-block;
+}
+
+.times-content {
+  display: inline-block;
+  margin: 0 auto;
+  width: 280px;
+  height: 280px;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+#timer-label {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#time-left {
+  font-size: 5rem;
+  font-weight: 700;
+}
